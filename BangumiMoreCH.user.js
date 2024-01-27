@@ -8,6 +8,8 @@
 // @include      /^https?:\/\/(bgm\.tv|bangumi\.tv|chii\.in)\/(ep|subject)\/\d+/
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
 // @grant        GM_xmlhttpRequest
+// @downloadURL  https://update.greasyfork.org/scripts/485828/Bangumi-More-CH.user.js
+// @updateURL    https://update.greasyfork.org/scripts/485828/Bangumi-More-CH.meta.js
 // ==/UserScript==
 
 (function() {
