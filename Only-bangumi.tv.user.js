@@ -3,7 +3,7 @@
 // @namespace   BLDF
 // @description Point all domain names to bangumi.tv
 // @homepage    https://github.com/NeKoOuO/bangumiscripts
-// @homepage    https://greasyfork.org/zh-TW/scripts/485822-only-bangumi-tv
+// @homepage    https://greasyfork.org/scripts/485822-only-bangumi-tv
 // @include     /^https?:\/\/(doujin\.|)(bgm\.tv|bangumi\.tv)/
 // @version     0.0.6
 // @grant       none
