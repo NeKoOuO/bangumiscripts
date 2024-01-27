@@ -3,7 +3,7 @@
 // @namespace   BE
 // @description Add Twitter, Instagram, Pixiv, and Amazon links based on Infobox content
 // @include     /https?:\/\/(bgm|bangumi|chii)\.(tv|in)\/(person|subject)\/\d+$/
-// @version     0.0.7
+// @version     0.0.8
 // @grant       none
 // ==/UserScript==
 
