@@ -8,6 +8,8 @@ More scripts [HERE](https://github.com/bangumi/scripts)
 
 書籍條目內若 Infobox 有 Amazon ISBN 欄位，會增加替換為超連結。
 ## [BangumiMoreCH](https://github.com/NeKoOuO/bangumiscripts/raw/main/BangumiMoreCH.user.js)
+增加查看集數的中文 。 
+在維基編輯關聯時角色名替換成中文。 
 ## [Only-bangumi.tv](https://github.com/NeKoOuO/bangumiscripts/raw/main/Only-bangumi.tv.user.js)
 只允許bangumi.tv存在 消滅了其他的域名 。  
 只要在bangumi上不管輸入bgm.tv還是chii.in都會導向bangumi.tv 。  
