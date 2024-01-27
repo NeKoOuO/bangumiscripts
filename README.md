@@ -1,4 +1,4 @@
 # bangumiscripts
 For personal use.
-MORE scripts
+MORE scripts here
 https://github.com/bangumi/scripts
