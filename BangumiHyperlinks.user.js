@@ -5,8 +5,10 @@
 // @homepage    https://github.com/NeKoOuO/bangumiscripts
 // @homepage    https://greasyfork.org/scripts/485821-bangumi-hyperlinks
 // @include     /https?:\/\/(bgm|bangumi|chii)\.(tv|in)\/(person|subject)\/\d+$/
-// @version     0.1.1
+// @version     0.1.2
 // @grant       none
+// @downloadURL https://update.greasyfork.org/scripts/485821/Bangumi-Hyperlinks.user.js
+// @updateURL https://update.greasyfork.org/scripts/485821/Bangumi-Hyperlinks.meta.js
 // ==/UserScript==
 
 // Function to add social media and Pixiv links in Infobox
