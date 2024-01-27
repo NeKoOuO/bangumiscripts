@@ -4,6 +4,7 @@
 // @description  Show Chinese episode name in episode page and Chinese character name in character page
 // @version      0.0.7
 // @homepage     https://github.com/NeKoOuO/bangumiscripts
+// @homepage     https://greasyfork.org/scripts/485828-bangumi-more-ch
 // @include      /^https?:\/\/(bgm\.tv|bangumi\.tv|chii\.in)\/(ep|subject)\/\d+/
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
 // @grant        GM_xmlhttpRequest
