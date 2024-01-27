@@ -2,8 +2,9 @@
 // @name        Only-bangumi.tv
 // @namespace   BLDF
 // @description Point all domain names to bangumi.tv
+// @homepage    https://github.com/NeKoOuO/bangumiscripts
 // @include     /^https?:\/\/(doujin\.|)(bgm\.tv|bangumi\.tv)/
-// @version     0.0.4
+// @version     0.0.5
 // @grant       none
 // ==/UserScript==
 
