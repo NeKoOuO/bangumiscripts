@@ -8,7 +8,7 @@
 // @version     0.1.2
 // @grant       none
 // @downloadURL https://update.greasyfork.org/scripts/485821/Bangumi-Hyperlinks.user.js
-// @updateURL https://update.greasyfork.org/scripts/485821/Bangumi-Hyperlinks.meta.js
+// @updateURL   https://update.greasyfork.org/scripts/485821/Bangumi-Hyperlinks.meta.js
 // ==/UserScript==
 
 // Function to add social media and Pixiv links in Infobox
