@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Bangumi-Integrated
+// @name         Bangumi-More-CH
 // @namespace    chitanda
 // @description  Show Chinese episode name in episode page and Chinese character name in character page
 // @version      0.0.5
