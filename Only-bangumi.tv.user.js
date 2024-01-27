@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Only-Bangumi.tv
+// @name        Only-bangumi.tv
 // @namespace   BLDF
 // @description Point all domain names to bangumi.tv
 // @include     /^https?:\/\/(doujin\.|)(bgm\.tv|bangumi\.tv)/
-// @version     0.0.3
+// @version     0.0.4
 // @grant       none
 // ==/UserScript==
 
