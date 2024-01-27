@@ -1,1 +1,2 @@
 # bangumiscripts
+For personal use.
