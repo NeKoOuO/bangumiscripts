@@ -3,8 +3,9 @@
 // @namespace   BE
 // @description Add Twitter, Instagram, Pixiv, and Amazon links based on Infobox content
 // @homepage    https://github.com/NeKoOuO/bangumiscripts
+// @homepage    https://greasyfork.org/scripts/485821-bangumi-hyperlinks
 // @include     /https?:\/\/(bgm|bangumi|chii)\.(tv|in)\/(person|subject)\/\d+$/
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
