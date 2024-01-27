@@ -2,7 +2,7 @@
 // @name         Bangumi-More-CH
 // @namespace    chitanda
 // @description  Show Chinese episode name in episode page and Chinese character name in character page
-// @version      0.0.5
+// @version      0.0.6
 // @include      /^https?:\/\/(bgm\.tv|bangumi\.tv|chii\.in)\/(ep|subject)\/\d+/
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
 // @grant        GM_xmlhttpRequest
