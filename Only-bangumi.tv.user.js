@@ -7,6 +7,8 @@
 // @include     /^https?:\/\/(doujin\.|)(bgm\.tv|bangumi\.tv)/
 // @version     0.0.6
 // @grant       none
+// @downloadURL https://update.greasyfork.org/scripts/485822/Only-bangumitv.user.js
+// @updateURL   https://update.greasyfork.org/scripts/485822/Only-bangumitv.meta.js
 // ==/UserScript==
 
 (function() {
