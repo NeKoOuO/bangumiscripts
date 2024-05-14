@@ -47,31 +47,21 @@ function addLinks() {
     });
 }
 
-// Function to add Amazon link by ISBN in subject page Infobox
-function addAmazonLinkByISBN() {
-    var infoboxHtml = $('#infobox').html();
-    var isbnMatch = infoboxHtml.match(/ISBN: <\/span\>([\dX\-]+)/);
-    if (!isbnMatch) return; // Exit if ISBN not found
-
-    var isbn = isbnMatch[1].replace(/\-/g, '');
-    if (isbn.length == 13) {
+//Add Amazon link by ISBN
+$('#infobox').html((function() {
+    var isbn = $('#infobox').html().match(/ISBN: <\/span\>([\dX\-]+)/)[1];
+    if(typeof isbn == "undefined") return $('#infobox').html();
+    isbn = isbn.replace(/\-/g, '');
+    if(isbn.length == 13) {
         isbn = isbn.substr(3, 9);
         var tmp = 0;
-        for (var i = 0; i <= 8; i++) {
+        for(var i = 0; i <= 8; i++) {
             tmp += parseInt(isbn[i]) * (10 - i);
         }
         tmp = 11 - (tmp % 11);
-        if (tmp == 10) tmp = "X";
-        if (tmp == 11) tmp = "0";
+        if(tmp == 10) tmp = "X";
+        if(tmp == 11) tmp = "0";
         isbn += ("" + tmp);
     }
-
-    var amazonLink = '<a class="l" href="https://www.amazon.co.jp/dp/' + isbn + '" target="_blank">日本Amazon</a>';
-    $('#infobox').html(infoboxHtml.replace(/ISBN: <\/span\>([\dX\-]+)/, 'ISBN: </span>$1 ' + amazonLink));
-}
-
-// Check the URL to determine which function to execute
-if (window.location.pathname.includes('/person/') || window.location.pathname.includes('/subject/')) {
-    addLinks(); // Execute link addition
-    addAmazonLinkByISBN(); // Execute Amazon link addition by ISBN
-}
+    return $('#infobox').html().replace(/ISBN: <\/span\>([\dX\-]+)/, 'ISBN: </span>$1 <a class="l" href="https://www.amazon.co.jp/dp/' + isbn + '" target="_blank">日本Amazon</a>');
+}));
