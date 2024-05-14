@@ -3,7 +3,7 @@
 For personal use.
 More scripts [HERE](https://github.com/bangumi/scripts)
 ## [→BangumiHyperlinks](https://github.com/NeKoOuO/bangumiscripts/raw/main/BangumiHyperlinks.user.js)
-人物條目內若 Infobox 有 [Twitter](https://github.com/bangumi/scripts/blob/master/binota/bangumi-twitter-link.user.js) Instgram Pixiv 欄位，會替換為超連結。
+人物條目內若 Infobox 有 [Twitter](https://github.com/bangumi/scripts/blob/master/binota/bangumi-twitter-link.user.js) Instgram Pixiv Youtube Bilibili 欄位，會替換為超連結。
 
 書籍條目內若 Infobox 有 [Amazon ISBN](https://github.com/bangumi/scripts/blob/master/binota/bangumi-isbn-amazon-link.user.js) 欄位，會在後面增加超連結。
 ## [→BangumiMoreCH](https://github.com/NeKoOuO/bangumiscripts/raw/main/BangumiMoreCH.user.js)
